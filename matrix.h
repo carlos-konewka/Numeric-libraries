@@ -17,7 +17,6 @@
 
 #pragma once
 #include <cstdlib>
-#include <vector>
 #include <fstream>
 
 //Headers used in definitions
