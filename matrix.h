@@ -362,8 +362,6 @@ Matrix<K> Matrix<K>::cut(int row, int col) const {
 	}
 	return Matrix<K>(n-1, m-1, A, 0);
 }
-#include <iostream>
-using namespace std;
 template <typename K>
 K Matrix<K>::det() const {
 	std::string message = std::string(__func__) + 
